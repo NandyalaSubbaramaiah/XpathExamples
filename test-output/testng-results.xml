@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="22227" started-at="2023-01-29T12:29:59 IST" finished-at="2023-01-29T12:30:21 IST">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="22227" started-at="2023-01-29T12:29:59 IST" finished-at="2023-01-29T12:30:21 IST">
+      <class name="com.app.crossTesting.CrossBrowserTesting">
+        <test-method status="PASS" signature="init1(java.lang.String)[pri:0, instance:com.app.crossTesting.CrossBrowserTesting@59e5ddf]" name="init1" duration-ms="7450" started-at="2023-01-29T12:29:59 IST" finished-at="2023-01-29T12:30:06 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init1 -->
+        <test-method status="PASS" signature="init3(java.lang.String)[pri:0, instance:com.app.crossTesting.CrossBrowserTesting@59e5ddf]" name="init3" duration-ms="14695" started-at="2023-01-29T12:30:06 IST" finished-at="2023-01-29T12:30:21 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init3 -->
+      </class> <!-- com.app.crossTesting.CrossBrowserTesting -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

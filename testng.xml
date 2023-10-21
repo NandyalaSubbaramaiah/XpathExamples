@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test name="ChromeTest">
+  <parameter name="param one" value="chrome"></parameter>
+    <classes>
+      <class name="com.app.crossTesting.CrossBrowserTesting"/>
+    </classes>
+  </test> 
+  
+  <!-- <test name="IETest">
+  <parameter name="param two" value="IE"></parameter>
+    <classes>
+      <class name="com.app.crossTesting.CrossBrowserTesting"/>
+    </classes>
+  </test>  -->
+   
+  <test name="MSEdgeTest">
+  <parameter name="param three" value="Edge"></parameter>
+    <classes>
+      <class name="com.app.crossTesting.CrossBrowserTesting"/>
+    </classes>
+  </test> 
+  
+</suite> <!-- Suite -->
